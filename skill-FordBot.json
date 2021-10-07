@@ -1,0 +1,1035 @@
+{
+  "intents": [
+    {
+      "intent": "airbags",
+      "examples": [
+        {
+          "text": "me fale sobre o airbag"
+        },
+        {
+          "text": "quantos airbags tem"
+        },
+        {
+          "text": "quero saber dos airbags"
+        },
+        {
+          "text": "quero saber o número de airbags"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cambio",
+      "examples": [
+        {
+          "text": "cambio"
+        },
+        {
+          "text": "me fale sobre o cambio"
+        },
+        {
+          "text": "quantas marchas o carro tem"
+        },
+        {
+          "text": "quero saber sobre o cambio"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "capacidades",
+      "examples": [
+        {
+          "text": "ajuda"
+        },
+        {
+          "text": "O que voce faz"
+        },
+        {
+          "text": "O que voce pode fazer"
+        },
+        {
+          "text": "para o que serve"
+        },
+        {
+          "text": "quero ajuda"
+        },
+        {
+          "text": "voce faz o que?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "clear",
+      "examples": [
+        {
+          "text": "clear"
+        }
+      ]
+    },
+    {
+      "intent": "combina_mais_com_voce",
+      "examples": [
+        {
+          "text": "carro que combina comigo"
+        },
+        {
+          "text": "qual carro combina comigo"
+        },
+        {
+          "text": "qual carro combina mais cmg"
+        },
+        {
+          "text": "quero saber qual carro combina comigo"
+        },
+        {
+          "text": "quero saber qual carro combina mais comigo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Duvidas_carro",
+      "examples": [
+        {
+          "text": "me fale da ranger"
+        },
+        {
+          "text": "o que voce sabe sobre a ranger"
+        },
+        {
+          "text": "quero saber mais sobre a ford ranger"
+        },
+        {
+          "text": "quero saber sobre a ford ranger"
+        },
+        {
+          "text": "quero tirar duvidas sobre o carro"
+        },
+        {
+          "text": "tenho uma dúvida sobre o carro"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Duvidas_Revisao",
+      "examples": [
+        {
+          "text": "o que sabe sobre a revisao"
+        },
+        {
+          "text": "quero saber mais sobre a revisão"
+        },
+        {
+          "text": "quero saber mais sobre as revisoes"
+        },
+        {
+          "text": "quero saber sobre a revisão"
+        },
+        {
+          "text": "quero saber sobre minha revisão"
+        },
+        {
+          "text": "revisao"
+        },
+        {
+          "text": "tenho duvidas sobre a revisao"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "eai"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "hola"
+        },
+        {
+          "text": "oi"
+        },
+        {
+          "text": "oi henry"
+        },
+        {
+          "text": "ola"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "modo_acessibilidade",
+      "examples": [
+        {
+          "text": "ModoAcessivelOff"
+        },
+        {
+          "text": "ModoAcessivelOn"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "rendimento",
+      "examples": [
+        {
+          "text": "qual o rendimento"
+        },
+        {
+          "text": "quanto a ranger faz por litro"
+        },
+        {
+          "text": "quanto rende"
+        },
+        {
+          "text": "quantos km por litro faz"
+        },
+        {
+          "text": "quero saber o rendimento por litro do carro"
+        },
+        {
+          "text": "quero saber quanto rende o carro"
+        },
+        {
+          "text": "rendimento"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tipo_motor",
+      "examples": [
+        {
+          "text": "quais motores tem"
+        },
+        {
+          "text": "qual motor tem disponivel"
+        },
+        {
+          "text": "qual tipo de motor tem"
+        },
+        {
+          "text": "quero saber sobre os motores"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "cancelar",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cancelar",
+          "synonyms": [
+            "cancele",
+            "chega",
+            "parar",
+            "pare",
+            "quero sair daqui"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "clear",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "moradia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "campo",
+          "synonyms": [
+            "roca"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cidade",
+          "synonyms": [
+            "litoral",
+            "metropole"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "resposta",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nao",
+          "synonyms": [
+            "n",
+            "Nao"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "s",
+            "Sim"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "revisao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "por valor",
+          "synonyms": [
+            "valor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tabela",
+          "synonyms": [
+            "todas"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tamanho",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "grande",
+          "synonyms": [
+            "gigante",
+            "grandao"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pequeno",
+          "synonyms": [
+            "minusculo",
+            "pequenininho"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "discreto",
+          "synonyms": [
+            "dia a dia",
+            "normal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "esportivo",
+          "synonyms": [
+            "dahora",
+            "fodao"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Eu sou o Henry Bot, como eu posso lhe ajudar?                                                                       Caso seja a sua primeira interação comigo, me pergunte o que eu posso fazer \n Caso Precise de áudios, digite ModoAcessivelOn, para desligar escreva ModoAcessivelOff"
+              },
+              {
+                "text": "Oi, eu sou o Henry Bot. Posso lhe ajudar em algo?                                                                      Caso seja a sua primeira interação comigo, me pergunte o que eu posso fazer \n Caso Precise de áudios, digite ModoAcessivelOn, para desligar escreva ModoAcessivelOff"
+              },
+              {
+                "text": "Eu sou o Henry Bot. Se precisar de mim, estou aqui!                                                                     \nCaso seja a sua primeira interação comigo, me pergunte o que eu posso fazer \n Caso Precise de áudios, digite ModoAcessivelOn, para desligar escreva ModoAcessivelOff"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome || #greeting",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_4_1633381808069",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendi, mora na cidade.<br>Você prefere um veículo esportivo ou para usar no dia a dia?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1633380569523",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1633380569538",
+      "previous_sibling": "handler_8_1633380569538"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1633379970604",
+      "context": {
+        "tamanho": "@tamanho"
+      },
+      "conditions": "@tamanho",
+      "event_name": "input",
+      "dialog_node": "handler_1_1633379970617"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1632788134259",
+      "context": {
+        "resposta": "@resposta"
+      },
+      "conditions": "@resposta",
+      "event_name": "input",
+      "dialog_node": "handler_4_1632788134278"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1633379476018",
+      "context": {
+        "moradia": "@moradia"
+      },
+      "conditions": "@moradia",
+      "event_name": "input",
+      "dialog_node": "handler_4_1633379476029"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você quer tirar dúvidas sobre a Ford Ranger, correto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_10_1632788134259",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1632788134278",
+      "previous_sibling": "handler_4_1632788134278"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você mora no campo ou na cidade?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_4_1633379476018",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1633379476029",
+      "previous_sibling": "handler_4_1633379476029"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Já estamos acabando. Você prefere um Porta-malas grande ou pequeno?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_9_1633379970604",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1633379970617",
+      "previous_sibling": "handler_1_1633379970617"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1633380569523",
+      "context": {
+        "tipo": "@tipo"
+      },
+      "conditions": "@tipo",
+      "event_name": "input",
+      "dialog_node": "handler_8_1633380569538"
+    },
+    {
+      "type": "standard",
+      "title": "campo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendi, você mora no campo. Agora só mais uma perguntinha"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1633377250680",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@moradia:campo",
+      "dialog_node": "node_10_1633377781558",
+      "previous_sibling": "slot_4_1633379476018"
+    },
+    {
+      "type": "frame",
+      "title": "cidade",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1633377250680",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@moradia:cidade",
+      "dialog_node": "node_1_1633377710182",
+      "previous_sibling": "node_10_1633377781558"
+    },
+    {
+      "type": "standard",
+      "title": "Motores disponíveis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Temos a Ford Ranger com o motor 2.2 Diesel ou \n3.2 também a Diesel"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1632787085813",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1633381808069"
+      },
+      "conditions": "#tipo_motor",
+      "dialog_node": "node_1_1633378952465",
+      "previous_sibling": "node_9_1633378402677"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1632784922884",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1633381808069"
+      },
+      "conditions": "@resposta == 'nao'",
+      "dialog_node": "node_2_1632788057734",
+      "previous_sibling": "node_7_1632787085813"
+    },
+    {
+      "type": "frame",
+      "title": "capacidade de carga",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1633377781558",
+      "context": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1633377868153"
+    },
+    {
+      "type": "standard",
+      "title": "veiculo discreto - Ford Territory e Bronco Sport",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Legal!                                                                                                                                                              Recomendamos a Ford Territory ou o Bronco Sport"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633377710182",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1633381808069"
+      },
+      "conditions": "@tipo:discreto",
+      "dialog_node": "node_2_1633378073482",
+      "previous_sibling": "node_5_1633378033029"
+    },
+    {
+      "type": "standard",
+      "title": "Revisoes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Legal! Você quer saber mais sobre as revisões.    As revisões devem ser feitas com                                       \n 1ª Revisão - 12 meses ou 10.000 Km                                   \n  2ª Revisão - 24 Meses ou 20.000 Km                                   \n  3ª Revisão - 36 meses ou 30.000 Km                                   \n  4ª Revisão - 48 Meses ou 40.000 Km                                   \n  5ª Revisão - 60 Meses ou 50.000 Km                                   \n  6ª Revisão - 72 Meses ou 60.000 Km                                   \n  7ª Revisão - 84 Meses ou 70.000 Km                                   \n  8ª Revisão - 96 Meses ou 80.000 Km                                   \n  9ª Revisão - 108 Meses ou 90.000 Km                                 \n  10ª Revisão - 120 Meses ou 100.000 Km                                \n Para saber sobre os preços  ou das peças que devem ser trocadas entre em contato com a Autorizada Ford mais próxima de você ou entre em www.ford.com.br/servico-ao-cliente/revisao-preco-fixo/ranger"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1633381808069"
+      },
+      "conditions": "#Duvidas_Revisao",
+      "dialog_node": "node_2_1633380762843",
+      "previous_sibling": "node_5_1633376839848"
+    },
+    {
+      "type": "frame",
+      "title": "moradia",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1633376839848",
+      "context": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1633377250680"
+    },
+    {
+      "type": "standard",
+      "title": "porta malas pequeno - Bronco sport ou Territory",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Legal!                                                                                                                                                             \nO carro ideal para você pode ser a Bronco Sport ou a Ford Territory."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1633377868153",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1633381808069"
+      },
+      "conditions": "@tamanho:pequeno",
+      "dialog_node": "node_3_1633377990369",
+      "previous_sibling": "node_7_1633377981112"
+    },
+    {
+      "type": "standard",
+      "title": "Cambio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Temos a versão com câmbio Automático e Manual, de 5 marchas "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1632787085813",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1633381808069"
+      },
+      "conditions": "#cambio",
+      "dialog_node": "node_4_1633380802004",
+      "previous_sibling": "node_8_1633380793299"
+    },
+    {
+      "type": "standard",
+      "title": "Clear",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? Context.clear()?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Se precisar de mais alguma coisa estou à disposição!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@clear || #clear",
+      "dialog_node": "node_4_1633381808069",
+      "previous_sibling": "node_4_1633629899825"
+    },
+    {
+      "type": "standard",
+      "title": "Acessibilidade - Feito para o Telegram",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alterando propriedades do modo Acessível."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#modo_acessibilidade",
+      "dialog_node": "node_4_1633629899825",
+      "previous_sibling": "node_2_1633380762843"
+    },
+    {
+      "type": "standard",
+      "title": "qual_carro_ombina_mais",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você disse que gostaria de saber qual carro combina mais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#combina_mais_com_voce",
+      "dialog_node": "node_5_1633376839848",
+      "previous_sibling": "node_9_1632784922884"
+    },
+    {
+      "type": "standard",
+      "title": "veiculo esporte - Ford mustang mach 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu veículo ideal é o Ford Mustang Mach 1"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633377710182",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1633381808069"
+      },
+      "conditions": "@tipo:esportivo",
+      "dialog_node": "node_5_1633378033029",
+      "previous_sibling": "slot_6_1633380569523"
+    },
+    {
+      "type": "standard",
+      "title": "resposta - sim -Menu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O que deseja saber sobre a Ranger?                                                                                                     \nPosso responder dúvidas sobre:                                                                                                                   \n• Rendimento da Ranger  2.5 Flex 2022 (Km/L)                           \n• Tipos de Motores Disponíveis                                         \n• Número de Airbags                                                   \n• Câmbio"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1632784922884",
+      "conditions": "@resposta == 'sim'",
+      "dialog_node": "node_7_1632787085813",
+      "previous_sibling": "slot_10_1632788134259"
+    },
+    {
+      "type": "standard",
+      "title": "porta malas grande - ford ranger",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pronto!                                                                                                                                                          \nO carro ideal para você é a Ford Ranger"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1633377868153",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1633381808069"
+      },
+      "conditions": "@tamanho:grande",
+      "dialog_node": "node_7_1633377981112",
+      "previous_sibling": "slot_9_1633379970604"
+    },
+    {
+      "type": "standard",
+      "title": "Airbags",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Ford Ranger possui 7 Airbags. \nO suficiente para proteger toda a sua família!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1632787085813",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1633381808069"
+      },
+      "conditions": "#airbags",
+      "dialog_node": "node_8_1633380793299",
+      "previous_sibling": "node_1_1633378952465"
+    },
+    {
+      "type": "standard",
+      "title": "Capacidades",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu fui feito para responder perguntas relacionadas aos produtos da Ford.                        \nComo:   \n• Qual carro combina mais com você                                                                                                      \n• Dúvidas sobre a Ford Ranger                                                                                                                  \n• Dúvidas Relacionadas a revisões do veículo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#capacidades",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1632784609524",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "frame",
+      "title": "Dúvidas sobre o carro",
+      "output": {
+        "generic": []
+      },
+      "context": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Duvidas_carro",
+      "dialog_node": "node_9_1632784922884",
+      "previous_sibling": "node_9_1632784609524"
+    },
+    {
+      "type": "standard",
+      "title": "Rendimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ford Ranger 2.5 2022 - na Estrada \ncom Diesel faz até 11,5 Km/L \ne na Cidade faz até 9,5 Km/L"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1632787085813",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1633381808069"
+      },
+      "conditions": "#rendimento",
+      "dialog_node": "node_9_1633378402677"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1632784922884",
+      "variable": "$resposta",
+      "dialog_node": "slot_10_1632788134259"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1633377250680",
+      "variable": "$moradia",
+      "dialog_node": "slot_4_1633379476018"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1633377710182",
+      "variable": "$tipo",
+      "dialog_node": "slot_6_1633380569523"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1633377868153",
+      "variable": "$tamanho",
+      "dialog_node": "slot_9_1633379970604"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "FordBot",
+  "language": "pt-br",
+  "description": ""
+}
