@@ -1,4 +1,4 @@
-# telegram-chatbot
+# Telegram Chatbot
 
 # Introduction
 This is a telegram chatbot based on IBM Watson Assistant V1 and Node-red.
